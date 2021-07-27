@@ -1,0 +1,46 @@
+.menuScreen{
+    display: flex;
+    height: 212px;
+    border: 2px solid rgba(34, 34, 34, 0.623);
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.screen__left{
+    flex: 0.5;
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+.screen__left > h2 {
+    padding-top: 0.6em;
+}
+
+.menuItem{
+    margin-top: 12px;
+    padding: 0 6px;
+}
+
+.menuItem-wrapper{
+    display: flex;
+    padding: 8px 10px;
+    justify-content: space-between;
+}
+
+.menu-icon{
+    visibility: hidden;
+}
+
+.active{
+    background-color: #0094E1
+}
+
+.active .menu-icon{
+    visibility: visible;
+    color: white;
+}
+
+.active > h4{
+    color: white;
+}

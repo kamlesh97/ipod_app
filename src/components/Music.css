@@ -1,0 +1,7 @@
+.music--component{
+    height: 212px;
+    border: 2px solid rgba(34, 34, 34, 0.623);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,21 @@
+.coverflow{
+    width: 100%;
+    height: 212px;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(34, 34, 34, 0.623);
+}
+
+.coverflow > h2 {
+    margin-bottom: 10px;
+}
+
+.coverflow__img{
+    flex-grow: 1;
+    object-fit: cover;
+    border-radius: 10px;
+}
